@@ -71,7 +71,7 @@
   color: #222126;
   white-space: nowrap;
 
-  font-size:  2.5vh ;
+  font-size:  2.6vh ;
 
   max-height: 45vh;
   overflow-wrap: break-word;

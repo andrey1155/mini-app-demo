@@ -128,7 +128,9 @@ const sizes = ['38', '39', '40', '41', '42']
 }
 
 .subheadline {
-  font-size: clamp(1rem, 4% + 0.5rem, 2.5rem) ;
+  font-size:  2.6vh ;
+  margin-left: 5%;
+  margin-right: 5%;
   color: #222126;
 }
 
