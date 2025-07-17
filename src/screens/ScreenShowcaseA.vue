@@ -27,7 +27,7 @@
 <style scoped>
 
 
-@import 'src/style.css';
+@import '../style.css';
 
 .showcase-2 {
   position: relative;

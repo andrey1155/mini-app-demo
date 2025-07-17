@@ -23,7 +23,7 @@
 </template>
 
 <style scoped>
-@import 'src/style.css';
+@import '../style.css';
 
 .hero-title{
   font-size: 3rem;
