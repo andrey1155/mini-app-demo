@@ -72,6 +72,13 @@ const sizes = ['38', '39', '40', '41', '42']
   justify-content: space-between;
 }
 
+@media (min-width: 1000px) {
+  
+.product-card {
+  margin-top: 7%;
+}
+}
+
 .shoe-image {
   width: 100%;
   max-height: 40%;
@@ -114,14 +121,14 @@ const sizes = ['38', '39', '40', '41', '42']
 }
 
 .headline {
-  font-size:  clamp(1.15rem, 2vw + 0.7rem, 3rem) ;
+  font-size:  clamp(1.15rem, 4% + 0.7rem, 3rem) ;
   font-weight: 700;
   color: #222126;
   margin-bottom: 0.5rem;
 }
 
 .subheadline {
-  font-size: clamp(1rem, 2vw + 0.5rem, 2.5rem) ;
+  font-size: clamp(1rem, 4% + 0.5rem, 2.5rem) ;
   color: #222126;
 }
 

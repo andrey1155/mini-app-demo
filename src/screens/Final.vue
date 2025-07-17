@@ -14,17 +14,20 @@ const handleClick = async () => {
 
   if (!user || !user.id) {
     // Если Mini App открыта не из Telegram или пользователь не определён
-    window.open("https://t.me/YOUR_BOT_USERNAME?start=discuss_project", "_blank");
+    window.open("https://t.me/msa_assistant_bot?start=discuss_project", "_blank");
     return;
   }
 
   // Отправка на backend
-  await fetch("https://your-backend.com/send-message", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ userId: user.id }),
-  });
+  const data = {
+    action: "ai",
+    payload: {
+      userId: Telegram.WebApp.initDataUnsafe.user?.id,
+      time: Date.now()
+    }
+  };
 
+  window.Telegram.WebApp.sendData(JSON.stringify(data));
   // Закрытие мини-приложения
   window.Telegram.WebApp.close();
 };

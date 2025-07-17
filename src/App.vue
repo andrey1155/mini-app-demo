@@ -26,13 +26,13 @@ import FinalSection from './screens/Final.vue'
   margin-right: auto;
 
   padding: 0, 1rem;
-  max-width: 600px;
+  max-width: 510px;
 
   width: 100%;
   overflow-x: hidden;
 }
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
   .page-container{
     max-width: 600px;
   }
@@ -48,6 +48,6 @@ import FinalSection from './screens/Final.vue'
   .page-container{
     max-width: 600px;
   }
-}
+} */
 
 </style>

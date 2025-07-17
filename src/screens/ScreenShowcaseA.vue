@@ -75,7 +75,7 @@
   color: #222126;
   white-space: nowrap;
 
-  font-size:  clamp(1rem, 2vw + 0.7rem, 2rem) ;
+  font-size:  2.5vh ;
 
   max-height: 45vh;
   overflow-wrap: break-word;
@@ -83,17 +83,16 @@
 }
 
 .image-block {
+
   display: flex;
   align-items: flex-end; /* <-- выравнивание по нижнему краю */
+  justify-content: flex-end;
   gap: 1rem;
 
-    margin-left: 10vw;
 }
 
 @media (min-width: 1200px) {
-  .image-block {
-    margin-left: -1vw;
-  }
+
 }
 
 .text-block {
@@ -105,7 +104,7 @@
 
   transform: rotate(-0deg);
 
-  text-align: left;
+  text-align: right;
   max-width: 280px;
 }
 

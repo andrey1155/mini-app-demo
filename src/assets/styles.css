@@ -38,21 +38,21 @@ html, body{
 @media (min-width: 600px ) {
 
     .blue-line {
-  top: 60vh; /* Сильно смещена вниз */
+  top: 45vh; /* Сильно смещена вниз */
 }
 }
 
 @media (min-width: 900px ) {
 
     .blue-line {
-  top: 50vh; /* Сильно смещена вниз */
+  top: 5%; /* Сильно смещена вниз */
 }
 }
 
 @media (min-width: 1200px ) {
 
     .blue-line {
-  top: 15vh; /* Сильно смещена вниз */
+  top: -13%; /* Сильно смещена вниз */
 }
 }
 
@@ -61,6 +61,10 @@ html, body{
     .blue-line {
   top: 0vh; /* Сильно смещена вниз */
 }
+.red-line{
+  top: 0;
+}
+
 }
 
 @media (min-width: 1500px ) {
@@ -68,6 +72,10 @@ html, body{
     .blue-line {
   top: -40vh; /* Сильно смещена вниз */
 }
+.red-line{
+  top: 0;
+}
+
 }
 
 
@@ -98,9 +106,10 @@ html, body{
 }
 
 .title {
-  font-size: clamp(1rem, 2vw + 0.7rem, 2.3rem);
+  font-size: clamp(1rem, 2vh + 0.7rem, 2.3rem);
   font-weight: bold;
   color: #222126;
+  padding: 0;
 }
 
 .subtitle {
@@ -133,8 +142,8 @@ html, body{
 }
 }
 
-@media (min-width: 1000px){
+/* @media (min-width: 1000px){
 .image-wrapper {
       width: 25vh;
 }
-}
+} */

@@ -56,8 +56,9 @@
   position: relative;
   z-index: 2;
 
-  margin-left: 5vw;
+  margin-left: 3vw;
   margin-bottom: 20vh;
+  margin-top: 17%;
 }
 
 .vertical-text {
@@ -70,8 +71,7 @@
   color: #222126;
   white-space: nowrap;
 
-  font-size:  clamp(1rem, 2vw + 0.7rem, 2rem) ;
-
+  font-size:  2.5vh ;
 
   max-height: 45vh;
   overflow-wrap: break-word;
@@ -81,9 +81,8 @@
 .image-block {
   display: flex;
   align-items: flex-end; /* <-- выравнивание по нижнему краю */
+  justify-content: flex-start;
   gap: 1rem;
-
-    margin-right: 10vw;
 }
 
 @media (min-width: 1200px) {

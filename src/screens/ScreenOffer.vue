@@ -13,7 +13,7 @@
         <span style="color: #040FD9;">
         Telegram 
         </span>
-        боты и
+        боты <br> и 
         Mini Apps</h1>
         <p class="text-lg sm:text-xl mt-4 text-[#422646]
         hero-subtitle">Для фрилансеров <br>и предпринимателей</p>
@@ -26,17 +26,18 @@
 @import '../style.css';
 
 .hero-title{
-  font-size: 3rem;
+  font-size: clamp(1.15rem, 3vh + 0.7rem, 3rem) ;
   font-weight: bold;
   color: #222126;
-  padding-right: 2rem;
+  padding-right: 1rem;
+  margin-left: 3%;
 }
 
 .hero-subtitle{
-  font-size: 1.15rem;
+  font-size: clamp(1.15rem, 2vh + 0.7rem, 3rem) ;
   font-weight: normal;
   color: #222126;
-  margin-left: 0vw;
+  margin-left: 3%;
   margin-top: -4vh;
   padding-top: 1vh;
 
@@ -59,10 +60,10 @@
   text-align: left;
   margin-left: auto;
 
-  margin-right: 2rem;
+  margin-right: 2.5rem;
   margin-left: 1rem;
 
   max-width: 28rem;
-  margin-top: -18vh;
+  margin-top: -10vh;
 }
 </style>
